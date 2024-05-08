@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="7dp"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true">
+
+        <LinearLayout
+            android:id="@+id/id_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linear_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--<TextView
+                    android:id="@+id/text_river_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="Content"
+                    android:textSize="12sp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/colorBlack"
+                    android:layout_below="@+id/user_name"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="16dp"/>
+-->
+                <TextView
+                    android:id="@+id/river_name_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="16dp"
+                    android:ellipsize="marquee"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:text="Content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:gravity="center_vertical"
+                    android:text="Location: "
+                    android:textSize="14sp"
+                    android:paddingLeft="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="7dp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/location_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:text="Location"
+                    android:textSize="14sp"
+                    android:paddingLeft="5dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="5dp"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/linear_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linear_three">
+
+                <TextView
+                    android:id="@+id/text_discharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:gravity="center_vertical"
+                    android:text="Discharge: "
+                    android:textSize="14sp"
+                    android:paddingLeft="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="7dp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/discharge_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:gravity="center_vertical"
+                    android:text="Discharge"
+                    android:textSize="14sp"
+                    android:paddingLeft="5dp"
+                    android:layout_alignTop="@+id/picture"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linear_four">
+
+                <TextView
+                    android:id="@+id/text_flow_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/flow_status"
+                    android:textSize="14sp"
+                    android:paddingLeft="5dp"
+                    android:layout_alignTop="@+id/picture"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="7dp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/flow_status_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/flow_status"
+                    android:textSize="14sp"
+                    android:paddingLeft="5dp"
+                    android:layout_alignTop="@+id/picture"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linear_five">
+
+                <TextView
+                    android:id="@+id/text_remarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/remarks"
+                    android:textSize="14sp"
+                    android:paddingLeft="5dp"
+                    android:layout_alignTop="@+id/picture"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="7dp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/remarks_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/remarks"
+                    android:textSize="14sp"
+                    android:paddingLeft="5dp"
+                    android:layout_alignTop="@+id/picture"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="7dp"
+            android:layout_below="@+id/id_main_layout">
+
+            <!--<TextView
+                android:id="@+id/text_date_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_time"
+                android:textColor="@color/blue700"
+                android:textSize="18sp"
+                android:textStyle="bold"/>-->
+
+            <TextView
+                android:id="@+id/date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:gravity="center_vertical"
+                android:text="DD/MM/YY"
+                android:textSize="14sp"
+                android:paddingLeft="5dp"
+                android:layout_alignTop="@+id/picture"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:paddingBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:gravity="center_vertical"
+                android:text="00:00:00"
+                android:textSize="14sp"
+                android:paddingLeft="5dp"
+                android:layout_alignTop="@+id/picture"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="16dp"
+                android:paddingBottom="5dp"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

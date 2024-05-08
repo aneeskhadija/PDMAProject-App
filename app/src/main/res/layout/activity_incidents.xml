@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    android:background="@color/colorLightGray"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".Activities.Incidents">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="7dp"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/id_viewFlipper"
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/pdma" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >-->
+
+            <Button
+                android:id="@+id/id_btn_incident_report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@mipmap/ic_reports"
+                android:padding="15dp"
+                android:text="@string/btn_incidents_report"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/shapebutton"
+                android:layout_weight="0.5"/>
+
+            <Button
+                android:id="@+id/id_btn_relieve_activiteis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@mipmap/ic_relieve_activity"
+                android:padding="15dp"
+                android:text="@string/btn_relief_activities"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/shapebutton"
+                android:layout_weight="0.5"/>
+
+            <Button
+                android:id="@+id/id_btn_graphical_report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@mipmap/ic_reports"
+                android:padding="15dp"
+                android:text="@string/btn_graphical_reports"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/shapebutton"
+                android:layout_weight="0.5"/>
+
+        <!--</LinearLayout>
+
+    </ScrollView>-->
+
+</LinearLayout>

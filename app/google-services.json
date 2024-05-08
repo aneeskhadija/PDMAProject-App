@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "81325507678",
+    "firebase_url": "https://emergency-alert-pdma-kp.firebaseio.com",
+    "project_id": "emergency-alert-pdma-kp",
+    "storage_bucket": "emergency-alert-pdma-kp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81325507678:android:7a5e326ccc04bbd1",
+        "android_client_info": {
+          "package_name": "com.anees.pdma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81325507678-orkuh74n47i819rn407oooh5l5cbp09s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1yc6r16mONd3YsKNIN4UQtFqc8lPWWWk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

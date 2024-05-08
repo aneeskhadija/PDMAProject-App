@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BlueGrey100"
+    tools:context=".Activities.ContactUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_margin="3dp">
+
+        <LinearLayout
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/id_imageView"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="7dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pdma"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/facebook_follow"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/brdr"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/facebook_box"
+                        android:tint="@color/colorFacebook"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Facebook"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/twitter_follow"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/brdr"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/twitter"
+                        android:tint="@color/colorTwitter"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Twitter"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/website_address"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/brdr"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/google"
+                        android:tint="@color/colorLinkedin"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Website"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_us_screen_toolbar"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--using custom text view to support vector drawables inside TextView-->
+            <TextView
+                android:id="@+id/helpline_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pdma_helpline"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                app:drawableLeftCompat="@drawable/ic_call_black_24dp"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:id="@+id/incharge_number_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/incharge_control"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/helpline_text_view"
+                app:drawableLeftCompat="@drawable/ic_call_black_24dp"
+                tools:ignore="MissingClass" />
+
+            <ImageView
+                android:id="@+id/incharge_dropdown"
+                android:layout_width="25dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/ic_arrow_drop_down_circle_black_24dp"
+                android:layout_below="@+id/helpline_text_view"
+                android:layout_alignParentEnd="true"/>
+
+            <TextView
+                android:id="@+id/incharge_number_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0345 5893018"
+                android:layout_below="@+id/incharge_number_text_view"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="45dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/incharge_number_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0311 9281272"
+                android:layout_below="@+id/incharge_number_one"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="45dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/incharge_number_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0346 9898816"
+                android:layout_below="@+id/incharge_number_two"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="45dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/exchange_number_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exchange_number"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/incharge_number_three"
+                app:drawableLeftCompat="@drawable/ic_call_black_24dp"
+                tools:ignore="MissingClass" />
+
+            <ImageView
+                android:id="@+id/exchange_dropdown"
+                android:layout_width="25dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/ic_arrow_drop_down_circle_black_24dp"
+                android:layout_below="@+id/incharge_number_three"
+                android:layout_alignParentEnd="true"/>
+
+            <TextView
+                android:id="@+id/exchange_number_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exchange_number_one"
+                android:visibility="gone"
+                android:layout_below="@+id/exchange_dropdown"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="45dp" />
+
+            <TextView
+                android:id="@+id/exchange_number_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exchange_number_two"
+                android:layout_below="@+id/exchange_number_one"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="45dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/exchange_number_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exchange_number_three"
+                android:layout_below="@+id/exchange_number_two"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="45dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/exchange_number_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exchange_number_four"
+                android:layout_below="@+id/exchange_number_three"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="45dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/fax_number_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fax_number"
+                android:layout_below="@+id/exchange_number_four"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:id="@+id/fax_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="091 9214025"
+                android:layout_below="@+id/fax_number_tv"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="45dp"/>
+
+            <TextView
+                android:id="@+id/ddmo_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ddmos"
+                android:layout_below="@+id/fax_number"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                app:drawableLeftCompat="@drawable/ic_call_black_24dp"
+                tools:ignore="MissingClass" />
+
+            <ImageView
+                android:id="@+id/ddmo_dropdown"
+                android:layout_width="25dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/ic_arrow_drop_down_circle_black_24dp"
+                android:layout_below="@+id/fax_number"
+                android:layout_alignParentEnd="true"/>
+
+            <LinearLayout
+                android:id="@+id/ddmo_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/ddmo_tv">
+
+                <TextView
+                    android:id="@+id/ddmo_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abbotabad: 0992-9310203"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bannu:         0928-9270039"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Battagram:  0997-312189"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Buner:          0939-510234"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_five"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Charsadda: 091-9220137"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_six"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chitral:         0943-413686"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_seven"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D I Khan:      0966-9280117"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_eight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dir Lower:    0945-9250029"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_nine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dir Upper:     0944-880506"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_ten"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hangu:          0925-622682"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_eleven"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Haripur:        0995-610455"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_twelve"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karak:           0927-210710"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_thirteen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kohat:           0922-9260046"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_fourteen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kohistan Lower: 0998-405091"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_fifteen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kohistan Upper: 0998-407029"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_sixteen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lakki Marwat: 0969-538332"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_seventeen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Malakand:     0932-412254"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_eighteen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mansehra:     0997-300751"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_nineteen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mardan:         0937-9230701"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_twenty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nowshera:     0923-9220104"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_twentyone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Peshawar:     091-9212304"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_twenttwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Swabi:            0938-221401"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_twentythree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shangla:        0996-850005"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_twentyfour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Swat:              0946-9240341"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_twentyfive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tank:              0963-512290"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/ddmo_twentysix"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tor Ghar:       0997-214762"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="45dp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/rescue_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rescue_helpline"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                app:drawableLeftCompat="@drawable/ic_call_black_24dp"
+                android:layout_below="@+id/ddmo_linear"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:id="@+id/police_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/police_helpline"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                app:drawableLeftCompat="@drawable/ic_call_black_24dp"
+                android:layout_below="@+id/rescue_text_view"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:id="@+id/irrigation_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/irrigation_helpline"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                app:drawableLeftCompat="@drawable/ic_call_black_24dp"
+                android:layout_below="@+id/police_text_view"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:id="@+id/wssp_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wssp_helpline"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                app:drawableLeftCompat="@drawable/ic_call_black_24dp"
+                android:layout_below="@+id/irrigation_text_view"/>
+
+            <TextView
+                android:id="@+id/feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/send_feedback"
+                app:drawableLeftCompat="@drawable/ic_feedback_black_24dp"
+                android:layout_below="@+id/wssp_text_view"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.1"
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.anees.pdma"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary=true  //support library for converting vector images to png for api levels lower than 21
+
+        multiDexEnabled true //important
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'org/apache/http/version.properties'
+        exclude 'org/apache/http/client/version.properties'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    implementation 'com.github.Shashank02051997:FancyGifDialog-Android:1.3'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.10'
+    implementation 'com.android.volley:volley:1.1.1'
+    //dependency for uploading, updating & deleting data on server
+    implementation 'net.gotev:uploadservice:2.1'
+    //dependency for retrieving data from server & for uploading pdf files
+    implementation 'com.google.firebase:firebase-core:17.5.1'
+    // this line must be included to integrate with Firebase
+    implementation 'com.google.firebase:firebase-messaging:20.3.0'
+    // this line must be included to use FCM
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+    //for FCM
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    //FCM
+    implementation 'me.leolin:ShortcutBadger:1.1.21@aar'
+    //for notification badge
+    implementation 'com.github.PhilJay:MPAndroidChart:v2.2.4'
+    //dependency for graphs
+    implementation 'com.github.Binary-Finery:FabToast:1.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    //for Toasts
+    testImplementation 'junit:junit:4.13'
+    implementation files('libs/itextpdf-5.3.3.jar')
+
+    implementation 'ru.egslava:MaskedEditText:1.0.5'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
+    mavenCentral()          //for notification badge
+}
+apply plugin: 'com.google.gms.google-services' //FCM
+//for Fab Toasts
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '30.0.1'
+            }
+        }
+    }
+}

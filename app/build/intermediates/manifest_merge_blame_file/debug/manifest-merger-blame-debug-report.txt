@@ -1,0 +1,456 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.anees.pdma"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:10:5-79
+16-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:11:5-79
+17-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:12:5-67
+18-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+19-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:13:5-98
+19-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:13:22-95
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Permission for making call from phone -->
+20-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:14:5-81
+20-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.CALL_PHONE" />
+21-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:15:5-69
+21-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:15:22-66
+22    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Permission for uploading and download pdf files -->
+22-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:16:5-66
+22-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:16:22-63
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:17:5-80
+23-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:17:22-77
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:18:5-81
+24-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:18:22-78
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[net.gotev:uploadservice:2.1] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\e0a42f73b8c25b6a2573d703fa0dc204\jetified-uploadservice-2.1\AndroidManifest.xml:13:5-68
+25-->[net.gotev:uploadservice:2.1] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\e0a42f73b8c25b6a2573d703fa0dc204\jetified-uploadservice-2.1\AndroidManifest.xml:13:22-65
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+29        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:26:22-79
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+31-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:26:22-107
+32    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+33    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+34    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+35    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+36    <!-- for Samsung -->
+37    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+37-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:19:5-86
+37-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:19:22-83
+38    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+38-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:20:5-87
+38-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:20:22-84
+39    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+39-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:23:5-81
+39-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:23:22-78
+40    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+40-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:24:5-83
+40-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:24:22-80
+41    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+41-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:27:5-88
+41-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:27:22-85
+42    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+42-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:28:5-92
+42-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:28:22-89
+43    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+43-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:31:5-84
+43-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:31:22-81
+44    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+44-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:34:5-83
+44-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:34:22-80
+45    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+45-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:37:5-91
+45-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:37:22-88
+46    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+46-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:38:5-92
+46-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:38:22-89
+47    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+47-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:39:5-93
+47-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:39:22-90
+48    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+48-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:42:5-73
+48-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:42:22-70
+49    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+49-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:45:5-82
+49-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:45:22-79
+50    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+50-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:46:5-83
+50-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:46:22-80
+51    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+51-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:49:5-88
+51-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:49:22-85
+52    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+52-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:50:5-89
+52-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\eccd903c719b50e7235141df9c86de97\jetified-ShortcutBadger-1.1.21\AndroidManifest.xml:50:22-86
+53
+54    <application
+54-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:20:5-86:19
+55        android:name="androidx.multidex.MultiDexApplication"
+56        android:allowBackup="true"
+56-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:21:9-35
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[androidx.core:core:1.3.1] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\38c4e2211f572c07747ccf408cd88ab2\core-1.3.1\AndroidManifest.xml:24:18-86
+58        android:debuggable="true"
+59        android:icon="@mipmap/ic_launcher"
+59-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:22:9-43
+60        android:label="@string/app_name"
+60-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:23:9-41
+61        android:roundIcon="@mipmap/ic_launcher_round"
+61-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:24:9-54
+62        android:supportsRtl="true"
+62-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:25:9-35
+63        android:testOnly="true"
+64        android:theme="@style/AppTheme" >
+64-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:26:9-40
+65
+66        <!--
+67             The API key for Google Maps-based APIs is defined as a string resource.
+68             (See the file "res/values/google_maps_api.xml").
+69             Note that the API key is linked to the encryption key used to sign the APK.
+70             You need a different API key for each encryption key, including the release key that is used to
+71             sign the APK for publishing.
+72             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+73        -->
+74        <meta-data
+74-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:36:9-38:55
+75            android:name="com.google.android.geo.API_KEY"
+75-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:37:13-58
+76            android:value="@string/google_maps_key" />
+76-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:38:13-52
+77
+78        <activity
+78-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:40:9-42:58
+79            android:name="com.anees.pdma.Activities.MapsActivity"
+79-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:41:13-52
+80            android:label="@string/title_activity_maps" />
+80-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:42:13-56
+81        <activity android:name="com.anees.pdma.Activities.AboutUs" />
+81-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:43:9-56
+81-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:43:19-53
+82        <activity android:name="com.anees.pdma.Activities.ContactUs" />
+82-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:44:9-58
+82-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:44:19-55
+83        <activity android:name="com.anees.pdma.Activities.Report_Date_Selection" />
+83-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:45:9-70
+83-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:45:19-67
+84        <activity android:name="com.anees.pdma.Activities.GraphicalReport" />
+84-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:46:9-64
+84-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:46:19-61
+85        <activity android:name="com.anees.pdma.Activities.ReliefActivities_District" />
+85-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:47:9-74
+85-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:47:19-71
+86        <activity android:name="com.anees.pdma.Activities.District_Selection" />
+86-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:48:9-67
+86-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:48:19-64
+87        <activity android:name="com.anees.pdma.Activities.ReliefActivities" />
+87-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:49:9-65
+87-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:49:19-62
+88        <activity android:name="com.anees.pdma.Activities.Report_DateSelection" />
+88-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:50:9-69
+88-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:50:19-66
+89        <activity android:name="com.anees.pdma.Activities.IncidentsLoses_Report" />
+89-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:51:9-70
+89-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:51:19-67
+90        <activity android:name="com.anees.pdma.Activities.IncidentsDisasters_Report" />
+90-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:52:9-74
+90-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:52:19-71
+91        <activity android:name="com.anees.pdma.Activities.IncidentReport" />
+91-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:53:9-63
+91-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:53:19-60
+92        <activity android:name="com.anees.pdma.Activities.WarningActivity" />
+92-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:54:9-64
+92-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:54:19-61
+93        <activity android:name="com.anees.pdma.Activities.Rainfall_Forecast" />
+93-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:55:9-66
+93-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:55:19-63
+94        <activity android:name="com.anees.pdma.Activities.DailyRiverFlow_Report" />
+94-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:56:9-70
+94-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:56:19-67
+95        <activity android:name="com.anees.pdma.Activities.DailyFlood_Report" />
+95-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:57:9-66
+95-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:57:19-63
+96        <activity android:name="com.anees.pdma.Activities.WeatherAlertAdvisor" />
+96-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:58:9-68
+96-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:58:19-65
+97        <activity android:name="com.anees.pdma.Activities.Incidents" />
+97-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:59:9-58
+97-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:59:19-55
+98        <activity android:name="com.anees.pdma.Activities.Weather_Alert_Report" />
+98-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:60:9-69
+98-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:60:19-66
+99        <activity android:name="com.anees.pdma.Activities.Natural_Disasters_English" />
+99-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:61:9-74
+99-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:61:19-71
+100        <activity android:name="com.anees.pdma.Activities.Natural_Disasters_Urdu" />
+100-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:62:9-71
+100-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:62:19-68
+101        <activity
+101-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:64:9-66:58
+102            android:name="com.anees.pdma.Activities.SplashScreen"
+102-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:65:13-52
+103            android:theme="@style/AppTheme.NoActionBar" />
+103-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:66:13-56
+104        <activity android:name="com.anees.pdma.Activities.Login" />
+104-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:68:9-54
+104-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:68:19-51
+105        <activity android:name="com.anees.pdma.Activities.Weather" />
+105-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:69:9-56
+105-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:69:19-53
+106        <activity
+106-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:71:9-74:59
+107            android:name="com.anees.pdma.Activities.Home"
+107-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:72:13-44
+108            android:label="@string/title_activity_home"
+108-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:73:13-56
+109            android:theme="@style/AppTheme.NoActionBar" />
+109-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:74:13-56
+110        <activity
+110-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:76:9-84:20
+111            android:name="com.anees.pdma.MainActivity"
+111-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:77:13-41
+112            android:theme="@style/AppTheme.NoActionBar" >
+112-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:78:13-56
+113            <intent-filter>
+113-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:79:13-83:29
+114                <action android:name="android.intent.action.MAIN" />
+114-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:80:17-69
+114-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:80:25-66
+115
+116                <category android:name="android.intent.category.LAUNCHER" />
+116-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:82:17-77
+116-->F:\IRC Data\PDMA_3rd\Source code\PDMA\app\src\main\AndroidManifest.xml:82:27-74
+117            </intent-filter>
+118        </activity>
+119
+120        <service
+120-->[net.gotev:uploadservice:2.1] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\e0a42f73b8c25b6a2573d703fa0dc204\jetified-uploadservice-2.1\AndroidManifest.xml:16:9-20:19
+121            android:name="net.gotev.uploadservice.UploadService"
+121-->[net.gotev:uploadservice:2.1] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\e0a42f73b8c25b6a2573d703fa0dc204\jetified-uploadservice-2.1\AndroidManifest.xml:17:13-65
+122            android:enabled="true"
+122-->[net.gotev:uploadservice:2.1] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\e0a42f73b8c25b6a2573d703fa0dc204\jetified-uploadservice-2.1\AndroidManifest.xml:18:13-35
+123            android:exported="true" >
+123-->[net.gotev:uploadservice:2.1] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\e0a42f73b8c25b6a2573d703fa0dc204\jetified-uploadservice-2.1\AndroidManifest.xml:19:13-36
+124        </service>
+125
+126        <activity
+126-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\560756e26499f1381cae50b71e24acc2\jetified-play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
+127            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+127-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\560756e26499f1381cae50b71e24acc2\jetified-play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
+128            android:excludeFromRecents="true"
+128-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\560756e26499f1381cae50b71e24acc2\jetified-play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\560756e26499f1381cae50b71e24acc2\jetified-play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\560756e26499f1381cae50b71e24acc2\jetified-play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
+131        <!--
+132            Service handling Google Sign-In user revocation. For apps that do not integrate with
+133            Google Sign-In, this service will never be started.
+134        -->
+135        <service
+135-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\560756e26499f1381cae50b71e24acc2\jetified-play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
+136            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+136-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\560756e26499f1381cae50b71e24acc2\jetified-play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
+137            android:exported="true"
+137-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\560756e26499f1381cae50b71e24acc2\jetified-play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
+138            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+138-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\560756e26499f1381cae50b71e24acc2\jetified-play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
+139            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+139-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\560756e26499f1381cae50b71e24acc2\jetified-play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
+140        <uses-library
+140-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+141            android:name="org.apache.http.legacy"
+141-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+142            android:required="false" />
+142-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+143        <!--
+144             FirebaseMessagingService performs security checks at runtime,
+145             but set to not exported to explicitly avoid allowing another app to call it.
+146        -->
+147        <service
+147-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:28:9-35:19
+148            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+148-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:29:13-82
+149            android:directBootAware="true"
+149-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:30:13-43
+150            android:exported="false" >
+150-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:31:13-37
+151            <intent-filter android:priority="-500" >
+151-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:32:13-34:29
+151-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:32:28-51
+152                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+152-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:33:17-78
+152-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:33:25-75
+153            </intent-filter>
+154        </service>
+155        <service
+155-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:36:9-42:19
+156            android:name="com.google.firebase.components.ComponentDiscoveryService"
+156-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:37:13-84
+157            android:directBootAware="true"
+157-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\9ba56cd668babb56b6dd4f50313d0034\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+158            android:exported="false" >
+158-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:38:13-37
+159            <meta-data
+159-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:39:13-41:85
+160                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+160-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:40:17-119
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5f6a0f9e7620480e83b618a42e05215b\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:41:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:32:13-34:85
+163                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+163-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:33:17-96
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:34:17-82
+165            <meta-data
+165-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\10125f8ecaff3ab5238d10559bd90956\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:30:13-32:85
+166                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+166-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\10125f8ecaff3ab5238d10559bd90956\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:31:17-139
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\10125f8ecaff3ab5238d10559bd90956\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:32:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\0993159fb4fc7f68b73d4cb969b906b0\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+169                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+169-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\0993159fb4fc7f68b73d4cb969b906b0\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\0993159fb4fc7f68b73d4cb969b906b0\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+171            <meta-data
+171-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\b95224ec4409dd23705480717e2a8a07\jetified-firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+172                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+172-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\b95224ec4409dd23705480717e2a8a07\jetified-firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\b95224ec4409dd23705480717e2a8a07\jetified-firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+174        </service>
+175
+176        <receiver
+176-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:37:9-44:20
+177            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+177-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:38:13-78
+178            android:exported="true"
+178-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:39:13-36
+179            android:permission="com.google.android.c2dm.permission.SEND" >
+179-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:40:13-73
+180            <intent-filter>
+180-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:41:13-43:29
+181                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+181-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:42:17-81
+181-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\3fa64aa99c28d6caaa3f0e4c600c55a3\jetified-firebase-iid-20.3.0\AndroidManifest.xml:42:25-78
+182            </intent-filter>
+183        </receiver>
+184        <receiver
+184-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:29:9-33:20
+185            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+185-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:30:13-85
+186            android:enabled="true"
+186-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:31:13-35
+187            android:exported="false" >
+187-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:32:13-37
+188        </receiver>
+189
+190        <service
+190-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:35:9-38:40
+191            android:name="com.google.android.gms.measurement.AppMeasurementService"
+191-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:36:13-84
+192            android:enabled="true"
+192-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:37:13-35
+193            android:exported="false" />
+193-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:38:13-37
+194        <service
+194-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:39:9-43:72
+195            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+195-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:40:13-87
+196            android:enabled="true"
+196-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:41:13-35
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:42:13-37
+198            android:permission="android.permission.BIND_JOB_SERVICE" />
+198-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\fd29ec385203502f69e45668e243a946\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:43:13-69
+199
+200        <provider
+200-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\9ba56cd668babb56b6dd4f50313d0034\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+201            android:name="com.google.firebase.provider.FirebaseInitProvider"
+201-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\9ba56cd668babb56b6dd4f50313d0034\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+202            android:authorities="com.anees.pdma.firebaseinitprovider"
+202-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\9ba56cd668babb56b6dd4f50313d0034\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+203            android:exported="false"
+203-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\9ba56cd668babb56b6dd4f50313d0034\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+204            android:initOrder="100" />
+204-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\9ba56cd668babb56b6dd4f50313d0034\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+205
+206        <activity
+206-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\9d661c53592b1f8279a38784a8da1d66\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+207            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+207-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\9d661c53592b1f8279a38784a8da1d66\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+208            android:exported="false"
+208-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\9d661c53592b1f8279a38784a8da1d66\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+209            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+209-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\9d661c53592b1f8279a38784a8da1d66\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+210
+211        <meta-data
+211-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5df3d795794098ac836df81f4efef8a6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+212            android:name="com.google.android.gms.version"
+212-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5df3d795794098ac836df81f4efef8a6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+213            android:value="@integer/google_play_services_version" />
+213-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\5df3d795794098ac836df81f4efef8a6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+214
+215        <service
+215-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\cdbfa7e6b1980e7f64812ffbf1f82abf\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+216            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+216-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\cdbfa7e6b1980e7f64812ffbf1f82abf\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+217            android:exported="false" >
+217-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\cdbfa7e6b1980e7f64812ffbf1f82abf\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+218            <meta-data
+218-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\cdbfa7e6b1980e7f64812ffbf1f82abf\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+219                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+219-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\cdbfa7e6b1980e7f64812ffbf1f82abf\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+220                android:value="cct" />
+220-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\cdbfa7e6b1980e7f64812ffbf1f82abf\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+221        </service>
+222        <service
+222-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\f87cedb4f210e0cc065d19137e289620\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+223            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+223-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\f87cedb4f210e0cc065d19137e289620\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+224            android:exported="false"
+224-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\f87cedb4f210e0cc065d19137e289620\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+225            android:permission="android.permission.BIND_JOB_SERVICE" >
+225-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\f87cedb4f210e0cc065d19137e289620\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+226        </service>
+227
+228        <receiver
+228-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\f87cedb4f210e0cc065d19137e289620\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+229            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+229-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\f87cedb4f210e0cc065d19137e289620\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+230            android:exported="false" />
+230-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Anees\.gradle\caches\transforms-2\files-2.1\f87cedb4f210e0cc065d19137e289620\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+231    </application>
+232
+233</manifest>

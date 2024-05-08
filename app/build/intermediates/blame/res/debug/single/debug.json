@@ -1,0 +1,766 @@
+[
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_landslide_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\landslide_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_graphical_report.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_graphical_report.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_email_black_24dp.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-v24\\ic_email_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_contact_phone_24.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\ic_baseline_contact_phone_24.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_info_24.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_tornado_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\tornado_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_pdma_logo.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\pdma_logo.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_relief_activities_district.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_relief_activities_district.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_report.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-hdpi\\ic_report.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_incident.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\incident.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_incidents.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_incidents.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_weather.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_weather.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_pdma_logo.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\pdma_logo.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_wildfire_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\wildfire_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_wildfire_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\wildfire_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_twitter.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\twitter.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_relieve_activity.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_relieve_activity.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_natural_disaster.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\natural_disaster.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_weather.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_weather.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_cyclone_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\cyclone_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_warning_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\warning_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_relieve_activity.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_relieve_activity.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_tornado_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\tornado_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_reports.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\ic_reports.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flood_urdu.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\flood_urdu.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_incident_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\incident_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_daily_flood_report_list_row.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\daily_flood_report_list_row.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_weather.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\ic_weather.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_weather_alert_report.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_weather_alert_report.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\anim_top_animation.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\anim\\top_animation.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_thunder_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\thunder_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_affected_road_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\affected_road_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_google.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\google.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_earthquake_urdu.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\earthquake_urdu.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_alert.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\ic_alert.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_earthquake_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\earthquake_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_feedback_24.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\ic_baseline_feedback_24.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_incident_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\incident_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_facebook.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_facebook.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_feedback_black_24dp.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_feedback_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brdr.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\brdr.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_river.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xhdpi\\river.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_relieve_activity.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\ic_relieve_activity.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_incident_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\incident_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_alert.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-hdpi\\ic_alert.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_bell.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\ic_bell.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_natural_disasters_urdu.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_natural_disasters_urdu.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_share_24.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_alert.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\ic_alert.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_landslide_urdu.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\landslide_urdu.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flood_english.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\flood_english.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_cyclone_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\cyclone_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_access_time_black_24dp.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\ic_access_time_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_incident_report.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_incident_report.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_warnings_list_view.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\warnings_list_view.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_welcome_slide_two.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\welcome_slide_two.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_reports.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\ic_reports.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_weather.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-hdpi\\ic_weather.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_reports.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-hdpi\\ic_reports.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_landslide_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\landslide_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contact_us.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_contact_us.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_date.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\dialog_date.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about_us.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_thunder_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\thunder_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_cyclone_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\cyclone_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_report.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_report.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_relief_activities.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_relief_activities.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_shapebutton.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xhdpi\\shapebutton.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_pdma_logo.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\pdma_logo.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_wildfire_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\wildfire_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_black_24dp.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_relieve_activity.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\ic_relieve_activity.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_earthquake.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xhdpi\\earthquake.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_cyclone_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\cyclone_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_pdma_logo.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\pdma_logo.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_warning_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\warning_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_earthquake_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\earthquake_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_open_in_browser_black_24px.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_open_in_browser_black_24px.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_landslide_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\landslide_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cloudy.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xhdpi\\cloudy.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_report.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\ic_report.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_weather.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\ic_weather.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_flood_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\flood_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_weather_alert.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\weather_alert.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_affected_road_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\affected_road_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_visibility_on.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_visibility_on.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_home.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\content_home.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\anim_bottom_animation.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\anim\\bottom_animation.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_hdr3.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\hdr3.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_facebook_box.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\facebook_box.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_daily_flood_report.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_daily_flood_report.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rain.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xhdpi\\rain.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_call.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\ic_call.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_warning_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\warning_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_river_flow_reports_list_view.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\river_flow_reports_list_view.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_report.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\ic_report.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_landslide_english.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\landslide_english.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cardviewshape.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xhdpi\\cardviewshape.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_flood.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xhdpi\\flood.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_welcome_slide_one.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\welcome_slide_one.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_affected_road_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\affected_road_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_warning.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_warning.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tornado_urdu.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\tornado_urdu.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_affected_road_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\affected_road_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report__date_selection.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_report__date_selection.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_weather_alert_advisor_view.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\weather_alert_advisor_view.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_weather.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\ic_weather.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_event_location.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\event_location.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_weather.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_weather.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_report.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\ic_report.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_reports.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_reports.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gif2.gif.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\gif2.gif"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_incidents_list_view.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\incidents_list_view.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_visibility_off.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_visibility_off.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_alert.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_alert.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_tornado_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\tornado_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\menu_flood_screen_action_bar_items.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\menu\\flood_screen_action_bar_items.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_incident_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\incident_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_earthquake_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\earthquake_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_hdr2.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\hdr2.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_alert.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xhdpi\\alert.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_relieve_activity.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-hdpi\\ic_relieve_activity.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_report.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_report.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_daily_river_flow_report.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_daily_river_flow_report.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_flood_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\flood_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tornado_english.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\tornado_english.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wildfire_english.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\wildfire_english.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tornado_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\tornado_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_earthquake_english.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\earthquake_english.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thunderstorm_english.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\thunderstorm_english.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_shapelogin.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\shapelogin.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_thunder_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\thunder_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_pdma_logo.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-hdpi\\pdma_logo.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_call_black_24dp.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_call_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_pdma.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\pdma.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_shapeemail.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\shapeemail.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_natural_disasters_english.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_natural_disasters_english.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_welcome_slide_four.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\welcome_slide_four.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_hdr1.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxhdpi\\hdr1.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_side_nav_bar.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-v24\\side_nav_bar.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_alert.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_alert.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_wildfire_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-mdpi\\wildfire_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_incidents_disasters_report.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_incidents_disasters_report.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rainfall_forecast.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_rainfall_forecast.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_earthquake_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\earthquake_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_landslide_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\landslide_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_flood_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\flood_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_weather_alert_advisor.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_weather_alert_advisor.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_welcome_slide_three.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\welcome_slide_three.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_district__selection.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_district__selection.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_on_black_24dp.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\ic_location_on_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wildfire_urdu.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\wildfire_urdu.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_flood_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xhdpi\\flood_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_warning_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\warning_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_twitter.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_twitter.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_arrow_drop_up_black_24dp.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_arrow_drop_up_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thunderstorm_urdu.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\thunderstorm_urdu.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_thunder_icon.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxxhdpi\\thunder_icon.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_incidents_loses_report.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\activity_incidents_loses_report.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_lock_black_24dp.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_lock_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cyclone_english.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable\\cyclone_english.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_reports.png.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_reports.png"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_arrow_drop_down_circle_black_24dp.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_arrow_drop_down_circle_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\build\\intermediates\\res\\merged\\debug\\layout_relief_activities_list_view.xml.flat",
+        "source": "F:\\IRC Data\\PDMA_3rd\\Source code\\PDMA\\app\\src\\main\\res\\layout\\relief_activities_list_view.xml"
+    }
+]

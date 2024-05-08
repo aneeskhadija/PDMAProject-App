@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">PDMA</string>
+
+
+    <string name="btn_natural">Natural Disasters</string>
+    <string name="btn_natural_urdu">قدرتی آفات</string>
+    <string name="btn_report">Corona Virus Report</string>
+    <string name="btn_weather_alert">Weather Alert</string>
+    <string name="btn_weather_alert_urdu">موسم کا انتباہ</string>
+    <string name="btn_incident">Incidents</string>
+    <string name="btn_incident_urdu">حادثات</string>
+    <string name="btn_notification">Notification</string>
+    <string name="btn_warnings">Warnings</string>
+    <string name="btn_warnings_urdu">انتباہ</string>
+    <string name="btn_event_map">Event Map</string>
+    <string name="btn_event_map_urdu">نقشہ</string>
+    <string name="btn_call">Contact</string>
+    <string name="btn_call_urdu">رابطہ</string>
+    <string name="btn_weather">Weather Report</string>
+    <string name="btn_alert_advisors">Alert/Advisors</string>
+    <string name="btn_alert_advisors_urdu">انتباہ / مشیر</string>
+    <string name="btn_daily_flood_report">Daily Flood Report</string>
+    <string name="btn_daily_flood_report_urdu">روزانہ سیلاب کی  اطلاع</string>
+    <string name="btn_rivers_flow_report">Rivers Flow Report</string>
+    <string name="btn_rivers_flow_report_urdu">دریاؤں کے بہاؤ کی اطلاع</string>
+    <string name="btn_pmd_alert">PMD alert</string>
+    <string name="btn_pmd_alert_urdu">پی ایم ڈی الرٹ</string>
+    <string name="btn_rainfall_forecast">Rainfall Forecast</string>
+    <string name="btn_rainfall_forecast_urdu">بارش کی پیشگوئی</string>
+
+    <string name="btn_incidents_report">Incidents Report \n حادثات کی رپورٹ</string>
+    <string name="btn_relief_activities">Relief Activities \n امدادی سرگرمیاں</string>
+    <string name="btn_graphical_reports">Graphical Reports \n گرافیکل رپورٹ</string>
+
+    <string name="btn_losses_report">Losses Report \n نقصانات کی رپورٹ</string>
+    <string name="btn_natural_disaster_report">Natural Disasters Report \n قدرتی آفات کی رپورٹ</string>
+
+    <!--Strings related to contact us screen-->
+    <string name="exchange_number">Exchange Numbers</string>
+    <string name="exchange_number_one">091 9211854</string>
+    <string name="exchange_number_two">091 9214095</string>
+    <string name="exchange_number_three">091 5274340</string>
+    <string name="exchange_number_four">091 9213959</string>
+    <string name="website">Website</string>
+    <string name="pdma_website">http://www.pdma.gov.pk</string>
+    <string name="follow">Follow Us</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="fax_number">Fax Number</string>
+    <string name="ddmos">DDMOs</string>
+    <string name="pdma_helpline">PDMA HELP LINE 24/7: 1700</string>
+    <string name="incharge_control">Incharge Control Room</string>
+    <string name="latest_news">Latest News</string>
+    <string name="event_map">Event Map</string>
+    <string name="natural_disasters">Natural Disasters</string>
+    <string name="graphical_reports">Graphical Reports</string>
+    <string name="loses_report">Losses Report</string>
+    <string name="disasters_report">Disasters Report</string>
+    <string name="rescue_helpline">RESCUE HELP LINE: 1122</string>
+    <string name="police_helpline">POLICE HELP LINE: 091 9210457</string>
+    <string name="irrigation_helpline">IRRIGATION DEPARTMENT HELP LINE: 091 9212114</string>
+    <string name="wssp_helpline">WSSP HELP LINE: 1334</string>
+
+    <string name="btn_feedback">Feedback</string>
+    <string name="btn_shareUs">Share Us</string>
+    <!--Strings related to ImageView and ImageButton-->
+    <string name="cyclone_icon">Cyclone Icon</string>
+    <string name="earthquake_icon">Earthquake Icon</string>
+    <string name="flood_icon">Flood Icon</string>
+    <string name="landslide_icon">Landslide Icon</string>
+    <string name="thunder_icon">Thunder Icon</string>
+    <string name="tornado_icon">Tornado Icon</string>
+    <string name="wildfire_icon">Wildfire Icon</string>
+
+    <!--Strings related to toasts-->
+    <string name="synchronized_success_message">Data Synchronized Successfully</string>
+    <string name="synchronized_error_message">Synchronization Failed. \nNetwork not available.</string>
+    <string name="download_error_message">Download Failed. \nNetwork not available.</string>
+    <string name="add_server_success">Added successfully on server</string>
+    <string name="add_local_success">Added successfully on local</string>
+    <string name="update_server_success">Updated successfully on server</string>
+    <string name="update_local_success">Updated successfully on local</string>
+
+    <string name="network_unavailable">No Internet Connection</string>
+
+    <string name="btn_special_daily_report">Special/Daily Report</string>
+    <string name="btn_special_daily_flood">Daily Flood Reports</string>
+    <string name="btn_special_river_report">River Flow Reports</string>
+    <string name="btn_special_pmd_alert">PMD Alert</string>
+    <string name="btn_special_rainfall">Rainfall</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">PDMA</string>
+    <string name="nav_header_subtitle">admin@pdma.gov.pk</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="disaster_type">Disaster Type</string>
+    <string name="other_disaster_type">Other Disaster Type</string>
+    <string name="location">Location</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="more_information">More Information</string>
+    <string name="report_issued">Report Issued/Updated By: </string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Sign In</string>
+    <string name="error_invalid">Invalid Username/Password</string>
+    <string name="success_message">Login Successful</string>
+    <string name="show_password">Show Password</string>
+    <string name="remember_password">Remember Password</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="slide_title_alert">Alert</string>
+    <string name="slide_desc_alert">Quick to notice any unusual and potentially dangerous or difficult circumstances vigilant!</string>
+
+    <string name="slide_title_earthquake">Earth Quake</string>
+    <string name="slide_desc_earthquake">A sudden violent shaking of the ground, typically causing great destruction, as a result of movements within the earths crust or volcanic action!</string>
+
+    <string name="slide_title_flood">Flood</string>
+    <string name="slide_desc_flood">An overflow of a large amount of water beyond its normal limits, especially over what is normally dry land.!</string>
+
+    <string name="slide_title_weather">Weather</string>
+    <string name="slide_desc_weather">Wear away or change the appearance or texture of (something) by long exposure to the atmosphere.!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_home">Home</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="date_picker_title">Select Date Of Reports</string>
+    <string name="time_picker_title">Select Time For Report</string>
+
+    <string name="river_name">River Name</string>
+    <string name="date_time">Date and Time</string>
+    <string name="discharge_cusecs">Discharge in (cusecs)</string>
+    <string name="required_discharge_cusecs">Discharge in (cusecs) *</string>
+    <string name="flow_status">Flow Status</string>
+    <string name="remarks">Remarks</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

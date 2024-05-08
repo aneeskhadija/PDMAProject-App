@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:id="@+id/linear_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:id="@+id/text_disaster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="Relief For Disaster: "
+            android:textSize="12sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/bg_screen1"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:id="@+id/relief_activity_disaster_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/colorBlack"
+            android:layout_alignParentRight="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_one"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+        <ImageView
+            android:id="@+id/location_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_location_on_black_24dp"/>
+
+        <TextView
+            android:id="@+id/relief_activity_location_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:text="Location"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_two"
+        android:paddingTop="10dp">
+        <ImageView
+            android:id="@+id/date_time_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_access_time_black_24dp"/>
+
+        <TextView
+            android:id="@+id/relief_activity_date_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:text="Date and Time"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Items"
+        android:paddingTop="3dp"
+        android:textColor="@color/blue700"
+        android:layout_below="@+id/linear_three"
+        android:textSize="14sp"
+        android:layout_marginLeft="7dp" />
+
+    <LinearLayout
+        android:id="@+id/linear_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/text_view_content"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_food_packages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Packages"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/food_packages_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_four"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_wheat_flours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wheat Flours"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/wheat_flours_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_five"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_pulses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pulses"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/pulses_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_non_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_six"
+        android:paddingTop="3dp"
+        android:text="Non Food Items"
+        android:textColor="@color/blue700"
+        android:textSize="14sp"
+        android:layout_marginLeft="7dp" />
+
+    <LinearLayout
+        android:id="@+id/linear_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/text_view_non_food"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_tents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tents"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/tents_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_seven"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_blankets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blankets"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/blankets_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_eight"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_life_jackets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Life Jackets"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/life_jackets_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_nine"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_aqua_tablets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aqua Tablets"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/aqua_tablets_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_eleven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_ten"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_gas_cylinders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gas Cylinders"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/gas_cylinders_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_twelve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_eleven"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_mats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mats"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/mats_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_thirteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_twelve"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_mosquito_nets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mosquito Nets"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/mosquito_nets_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_fourteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_thirteen"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_water_coolers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Coolers"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/water_coolers_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_fifteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_fourteen"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_buckets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buckets"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/buckets_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_sixteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_fifteen"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_pillows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pillows"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/pillows_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_seventeen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_sixteen"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_quilts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quilts"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/quilts_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_eighteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_seventeen"
+        android:paddingTop="7dp">
+        <TextView
+            android:id="@+id/text_kitchen_sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kitchen Sets"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/kitchen_sets_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_nineteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_eighteen"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_other_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other Items"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/other_items_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_health_coverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_nineteen"
+        android:paddingTop="3dp"
+        android:text="Health Coverage"
+        android:textColor="@color/blue700"
+        android:textSize="14sp"
+        android:layout_marginLeft="7dp" />
+
+    <LinearLayout
+        android:id="@+id/linear_twenty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/text_view_health_coverage"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/text_camps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camps"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/camps_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_twentyone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_twenty">
+
+        <TextView
+            android:id="@+id/text_coverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coverage"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/coverage_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_twentytwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/linear_twentyone">
+
+        <TextView
+            android:id="@+id/text_issued"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report Issued"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/report_issued_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
